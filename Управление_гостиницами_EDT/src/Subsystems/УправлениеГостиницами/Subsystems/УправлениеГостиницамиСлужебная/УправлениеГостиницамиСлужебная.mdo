@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bfde8ca4-ca0f-40aa-8ead-d3368cf51310">
+  <name>УправлениеГостиницамиСлужебная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление гостиницами служебная</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.ПериодыБронирования</content>
+  <content>DataProcessor.РабочийСтол</content>
+  <content>Catalog.Задачи</content>
+  <parentSubsystem>Subsystem.УправлениеГостиницами</parentSubsystem>
+</mdclass:Subsystem>

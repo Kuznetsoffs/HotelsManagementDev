@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe1afbbe-a843-403c-8b04-aece914cf0e3">
+  <producedTypes>
+    <objectType typeId="b3e6690f-c50e-4208-941f-ca8f761d345c" valueTypeId="77ae70b8-30b4-46a4-9a11-5e3ee59c6cb2"/>
+    <refType typeId="1eed6b5f-adc3-4c25-8e45-d074efa53540" valueTypeId="a98b659c-e5be-4887-acc0-9944a01c0caa"/>
+    <selectionType typeId="5ca4ac60-4d25-44bc-9720-1709b97959ae" valueTypeId="f91ecf0f-d90f-4a6d-9c34-21738bc70ada"/>
+    <listType typeId="c8eb0449-e5cd-4f40-9688-e9a62b201bfa" valueTypeId="844f5cd1-05e1-4123-a150-0474db240526"/>
+    <managerType typeId="56a1ddd2-2e7a-485b-a7f3-0028da9708bb" valueTypeId="fd733c5c-512a-4dd2-a294-66f1d6b1d0fd"/>
+  </producedTypes>
+  <name>Корпуса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Гостиничные корпуса</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Корпуса.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Гостиницы</owners>
+  <codeLength>2</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Корпуса.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="0b5ff404-ff1f-4d52-b781-04dc495df2fd">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="8dddacc4-4a34-4403-a086-a3c8d13fc4c5">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

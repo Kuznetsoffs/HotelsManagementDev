@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c312cd6-cdca-43c5-b3fe-39da472012a1">
+  <producedTypes>
+    <refType typeId="53d29cad-9e3b-476e-8e9c-c7a8098175ab" valueTypeId="a461c5be-4d5a-4f29-a448-5e215988d2a5"/>
+    <listType typeId="fbe66af9-8a71-4523-9504-f30070a84075" valueTypeId="c43f2b26-7e2e-4511-be18-8617f0c5c9d7"/>
+    <managerType typeId="763b5232-a855-44b5-9def-a444171489fe" valueTypeId="205d0c30-ae57-4107-a191-da44133e19a9"/>
+  </producedTypes>
+  <name>СпособыОплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы оплаты</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1a3fa7e4-eba8-4159-ae35-e0921f0cea00">
+    <name>ЭлектронныйПеревод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронный перевод</value>
+    </synonym>
+    <comment>Перевод денежных средств электронным способом (Сбербанк Онлайн,Card2Card и т.д.)</comment>
+  </enumValues>
+  <enumValues uuid="da2c1854-e54d-41f3-9162-f694043be6e6">
+    <name>БанковскийПеревод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банковский перевод</value>
+    </synonym>
+    <comment>Перевод денежных средств но реквизитам банковского счета</comment>
+  </enumValues>
+  <enumValues uuid="30a680cb-6ba4-4ddc-9c2f-e3f7cb974ed7">
+    <name>Наличные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наличные</value>
+    </synonym>
+    <comment>Оплата наличными</comment>
+  </enumValues>
+</mdclass:Enum>

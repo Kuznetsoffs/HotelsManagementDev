@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69d63be5-facb-4996-a9ac-1dd24438a860">
+  <producedTypes>
+    <objectType typeId="3d52caa9-5315-4df7-9d6e-a7bd53b688ac" valueTypeId="4d518ea6-e52b-4154-9ba8-678bbc7412a0"/>
+    <managerType typeId="71398815-13c3-446d-beba-62c1b7dc6a44" valueTypeId="b85e6b11-2775-499d-a1ec-ca06ae3cc181"/>
+  </producedTypes>
+  <name>РабочийСтол</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочий стол</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РабочийСтол.Form.РабочийСтолАдминистратора</defaultForm>
+  <forms uuid="7f069635-1cfc-4b41-a0e4-0e7f8bdcde4b">
+    <name>РабочийСтолАдминистратора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочий стол администратора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

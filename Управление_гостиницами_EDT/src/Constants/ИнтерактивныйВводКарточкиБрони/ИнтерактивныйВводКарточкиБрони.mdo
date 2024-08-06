@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad15015d-b33b-4a9d-963e-3a61a6038f0b">
+  <producedTypes>
+    <managerType typeId="0ee0e12e-a5ec-4aeb-9119-69591ebf57b6" valueTypeId="92e3f48b-3736-4a85-abb9-d454e794e64d"/>
+    <valueManagerType typeId="e97fafb5-da08-4cdf-b3a4-f348cf9c6994" valueTypeId="f5f8df6a-8878-46d4-bdb4-84133751294c"/>
+    <valueKeyType typeId="e7bf296b-6bba-5d27-92fe-82068c29d5db" valueTypeId="98dfa25f-358d-5410-b503-2fd4a0f46204"/>
+  </producedTypes>
+  <name>ИнтерактивныйВводКарточкиБрони</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интерактивный ввод карточки брони</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

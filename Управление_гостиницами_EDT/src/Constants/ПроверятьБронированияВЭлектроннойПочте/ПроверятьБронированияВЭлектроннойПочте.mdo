@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4b01187-1c18-44f1-9f89-2ad03f270c7a">
+  <producedTypes>
+    <managerType typeId="c6a5e53f-ac60-4c77-b9e4-1f5817c574bc" valueTypeId="44148747-a875-41f5-b567-279734022088"/>
+    <valueManagerType typeId="2a97e8b0-ffbc-48d2-8e46-d3d8ae673e06" valueTypeId="aa346cac-6fd5-45ee-939b-8decffc92d9b"/>
+    <valueKeyType typeId="909bd48a-76d3-5da8-9b9e-984f637a233e" valueTypeId="f77a6c0e-41fd-529e-b9e7-6ba5189b9979"/>
+  </producedTypes>
+  <name>ПроверятьБронированияВЭлектроннойПочте</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверять бронирования в электронной почте</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="83f553f9-f21a-4915-b501-7d8c972f9f9d">
+  <producedTypes>
+    <objectType typeId="d22ade10-6d95-489f-ae7e-47c20f5da46e" valueTypeId="dee0593a-7e48-46c0-8fde-173b3f546d93"/>
+    <managerType typeId="1279f8cb-68ae-4d4f-9ff5-77946a54063b" valueTypeId="0df49e21-b255-4808-84f4-d9846d2d2837"/>
+  </producedTypes>
+  <name>ВводКонтактнойИнформации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ввод контактной информации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="ab67bb42-f74d-4cbb-a324-657c0b29afb2">
+    <name>ВводТелефона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод телефона</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="037ce654-fb90-4810-8a31-ca9308f669f6">
+  <producedTypes>
+    <refType typeId="b5b866ba-0719-4dd7-91f5-c57f2832e101" valueTypeId="cf517756-b2c1-4cfd-9e43-bc8620221a97"/>
+    <listType typeId="aff4a0c1-7e05-4348-9d5f-f774efcbf1a9" valueTypeId="3c526c8b-dc1a-470e-9ccb-488689b44501"/>
+    <managerType typeId="95d34e4c-1870-46fd-abe0-f6e8cb76dc92" valueTypeId="3898f8b0-b087-4eb9-a64b-5b97b26004bc"/>
+  </producedTypes>
+  <name>ТипыЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы задач</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Типы задач</value>
+  </listPresentation>
+  <enumValues uuid="b9bd0a94-df7f-489f-b66f-87a54f284c3c">
+    <name>ЗаданиеГорничной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задание горничной</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="45f60f06-fd95-4efe-b034-725eda3c4db1">
+    <name>ЗаданиеПерсоналу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задание персоналу</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

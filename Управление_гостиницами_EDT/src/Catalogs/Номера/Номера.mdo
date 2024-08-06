@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="382df884-aafd-4081-9bbd-ac0050cc8c89">
+  <producedTypes>
+    <objectType typeId="64c6241a-88b7-4747-8603-7b83bd7610ec" valueTypeId="82cb411f-915c-4a70-b6e1-8bee15490a81"/>
+    <refType typeId="905bbfbc-5e97-48ff-bf11-dcf7f6498710" valueTypeId="a95d097b-2314-419e-b799-e221827def4c"/>
+    <selectionType typeId="6f76c099-bf08-4727-85d7-69ed221fff2d" valueTypeId="0f9812b1-8ba2-47c9-a0e7-d1da24f9b236"/>
+    <listType typeId="4d306c7d-36c4-44bd-aadd-001e7066ebb8" valueTypeId="3a32ef37-956f-4fe3-bf9a-77015e8aa9e5"/>
+    <managerType typeId="1ae40867-848c-4b9d-bc0b-11554ccdd91d" valueTypeId="5d762541-161e-4863-9f4c-330cc4d58eba"/>
+  </producedTypes>
+  <name>Номера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номера гостиниц</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Номера.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Номера.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Корпуса</owners>
+  <owners>Catalog.Гостиницы</owners>
+  <codeLength>4</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Номера.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Номера.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Номера.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="bed5baf7-c65a-4257-b3e8-10da28b988ca">
+    <name>КатегорияНомера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория номера</value>
+    </synonym>
+    <type>
+      <types>EnumRef.КатегорииНомеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="352ed8e6-ba2d-4a9f-beb3-86e038306f44">
+    <name>Этаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этаж</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8e22eed0-177d-4177-a29b-3a4d4adaaf99">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="54021c2a-dbea-4975-b578-39cd5ce3b5d6">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3505572f-ecfb-467e-9594-ddd852414e13">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fba41d8b-cb5a-48e2-9dde-197435484575">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

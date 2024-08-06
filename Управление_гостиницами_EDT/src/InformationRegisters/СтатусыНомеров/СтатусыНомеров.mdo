@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="258a9292-d4db-42d1-9af4-7f1186723699">
+  <producedTypes>
+    <selectionType typeId="1f7e486e-f04b-4e65-ab61-f12df935918e" valueTypeId="a93c3aa1-1be0-4412-87cb-14861512e842"/>
+    <listType typeId="55c44885-705f-4617-a73d-8a1fe76d970a" valueTypeId="458cf831-179e-4b22-974d-9c29c904b26c"/>
+    <managerType typeId="14eaf830-1f54-4931-bf90-f749bc5de032" valueTypeId="2488c45d-8864-4de2-9549-396b820a79c6"/>
+    <recordSetType typeId="77027ca6-2111-405c-b994-7e3eccd0c173" valueTypeId="ab9dbe58-e087-49aa-8570-556c768b25d5"/>
+    <recordKeyType typeId="320d9320-4f48-4cd1-84be-9c33dffbee43" valueTypeId="ad30cba8-2815-4157-b613-1fb53ec648ff"/>
+    <recordType typeId="ade593a9-e4d1-460f-a800-aac7d0c6d658" valueTypeId="4dd69c7f-2419-4abc-bc39-4f065e5f7664"/>
+    <recordManagerType typeId="17acf825-ca49-4997-8be2-4107e7edad02" valueTypeId="2a8f5d74-20ee-4347-9062-1944b4ba47b9"/>
+  </producedTypes>
+  <name>СтатусыНомеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы номеров</value>
+  </synonym>
+  <comment>Заполняется статус брони номера по дням</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="abafdc2c-cccf-4c82-9ae9-27d8fb655096">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <comment>Статус номера (свободен, занят, забронирован)</comment>
+    <type>
+      <types>EnumRef.СтатусыНомеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="c616ba45-5eda-4339-b760-f012dacb08ec">
+    <name>Гостиница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2bb73617-57d5-4681-a24e-467be6c7ed33">
+    <name>Номер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номера</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4740279a-3e15-4045-bad9-34be7451e02b">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6a67769e-3998-4935-b1b6-260055d9986c">
+    <name>Корпус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корпус</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Корпуса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

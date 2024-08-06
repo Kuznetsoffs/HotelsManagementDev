@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52e76723-e255-4e2c-806d-e9b3be5f846a">
+  <producedTypes>
+    <managerType typeId="18aaf8b4-1521-4499-a9b6-e284613e2dfd" valueTypeId="8eb85a26-c25e-4d81-ab6f-23614c5e88f0"/>
+    <valueManagerType typeId="280b135c-bc31-4346-8392-3bf262104846" valueTypeId="64e3a58a-9696-480f-8bfe-1ed3984544af"/>
+    <valueKeyType typeId="92c3e030-606f-4237-a50b-e7cec292fcc5" valueTypeId="bf3c6bd2-5f27-4070-a9aa-cf533b6e55ad"/>
+  </producedTypes>
+  <name>ПериодичностьУборки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периодичность уборки</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>2</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

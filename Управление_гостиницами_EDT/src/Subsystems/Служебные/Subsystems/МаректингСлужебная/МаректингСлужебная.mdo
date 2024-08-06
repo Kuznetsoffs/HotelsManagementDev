@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d17c9fd-d54d-43d2-a234-9d617228a0ea">
+  <name>МаректингСлужебная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маректинг служебная</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Document.КарточкаБронирования</content>
+  <content>Enum.КатегорииНомеров</content>
+  <parentSubsystem>Subsystem.Служебные</parentSubsystem>
+</mdclass:Subsystem>

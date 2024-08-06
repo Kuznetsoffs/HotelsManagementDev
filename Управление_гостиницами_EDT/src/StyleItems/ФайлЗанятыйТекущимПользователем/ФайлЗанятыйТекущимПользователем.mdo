@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b8fb418-23c4-4cff-acce-2e8dfcc9c02b">
+  <name>ФайлЗанятыйТекущимПользователем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Файл занятый текущим пользователем</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorRef">
+      <color>Web.Green</color>
+    </value>
+  </value>
+</mdclass:StyleItem>

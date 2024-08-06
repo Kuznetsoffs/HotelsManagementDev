@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d14b2eb8-6ad0-44f7-b804-0f4b0591561b">
+  <producedTypes>
+    <objectType typeId="17c93b42-7522-4e71-acef-97fcc5f77d01" valueTypeId="7c558bf9-f058-4233-86d6-83bebb9cddb9"/>
+    <managerType typeId="431d31dc-db14-4ab3-bd01-491f75a9f828" valueTypeId="dab41b1c-a573-4149-a595-6365ba55ee03"/>
+  </producedTypes>
+  <name>ПанельАдминистрированияБазовая</name>
+  <synonym>
+    <key>ru</key>
+    <value>Панель администрирования базовая</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="83c31aff-9b23-4873-84ad-c9091e44a954">
+    <name>Обслуживание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обслуживание</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

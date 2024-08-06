@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e2276d7-3f24-4c04-9f27-708e32dd5d8c">
+  <producedTypes>
+    <objectType typeId="2919bbfe-0c5a-424f-aae2-485d285d7253" valueTypeId="7e1327b5-aa42-40de-8aab-af9dac208f67"/>
+    <managerType typeId="f60d544b-a3e8-45d1-af3c-47169ed3d096" valueTypeId="0015db9c-79e7-408f-abfd-18e53ec637fa"/>
+  </producedTypes>
+  <name>Шахматка_MXL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шахматка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Шахматка_MXL.Form.Форма</defaultForm>
+  <forms uuid="c22ed79e-ac08-4c0a-ab7c-8da3fe0c0570">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3eb05fa8-9d16-4220-b700-d828737d3f02">
+    <name>ФормаНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="30f53517-8293-440d-80f5-71fa5da34273">
+    <name>ПросмотрЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просмотр цен</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7f84955d-71ac-440c-b1a0-8b18df8cba51">
+    <name>ФормаДиалогаМеню</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма диалога меню</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="9d1d8820-2b9c-4c37-9b0a-08dfc53d0f8e">
+    <name>ПФ_XML_Шахматка</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф XML шахматка</value>
+    </synonym>
+  </templates>
+  <commands uuid="9be4a5de-f789-4ea6-a969-b7dc11d7024a">
+    <name>Шахматка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шахматка</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7dc008b4-8741-47a1-a122-1baf224b3d6e">
+  <producedTypes>
+    <refType typeId="71af81e9-cfc3-47b5-8fcf-90d6a10b059d" valueTypeId="b7034234-4cab-4a89-b32e-76c46257dd1d"/>
+    <listType typeId="e423c824-d690-4689-9f1b-ef9b9d7984f0" valueTypeId="1e065b6c-c0ff-4a5d-99b6-bf65be05be41"/>
+    <managerType typeId="ea8efb8f-afe9-4726-bce6-2e931decc74a" valueTypeId="21c58ca6-48b3-49e9-8f5e-83f606c47d40"/>
+  </producedTypes>
+  <name>СтатусыНомеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы номеров</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a00ee84e-06c8-4420-b05c-32eb719d47da">
+    <name>Забронирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Забронирован</value>
+    </synonym>
+    <comment>На номер оформлена Бронь</comment>
+  </enumValues>
+  <enumValues uuid="0a86752c-7e8b-4e2a-bac1-677291ba6c4a">
+    <name>Занят</name>
+    <synonym>
+      <key>ru</key>
+      <value>Занят</value>
+    </synonym>
+    <comment>На номер оформлено Заселение</comment>
+  </enumValues>
+  <enumValues uuid="1a3ebb3b-db61-47a8-a171-4cf6b41b8faa">
+    <name>Свободен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свободен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

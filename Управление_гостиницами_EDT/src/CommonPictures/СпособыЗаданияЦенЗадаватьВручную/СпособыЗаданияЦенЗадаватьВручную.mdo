@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67415326-16be-4f3a-b835-0a7094f14f28">
+  <name>СпособыЗаданияЦенЗадаватьВручную</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы задания цен задавать вручную</value>
+  </synonym>
+</mdclass:CommonPicture>

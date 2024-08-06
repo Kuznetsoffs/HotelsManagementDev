@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4289dcba-9713-498c-8461-068fc68d4c9f">
+  <producedTypes>
+    <refType typeId="b23559e0-1e1b-432e-acb6-026d87d2f6b9" valueTypeId="c9514ab7-9610-4d77-ade9-a2e1bf68da53"/>
+    <listType typeId="888a3ba6-cc8a-4ef7-8d38-3676d2fcff84" valueTypeId="64fe83ae-3f6e-455d-b07c-b512057cff47"/>
+    <managerType typeId="a1c42f0b-84d9-4932-9419-9c3c45d12076" valueTypeId="7c60a1be-8728-4718-b0a9-b057bb4a47c9"/>
+  </producedTypes>
+  <name>КатегорииНомеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории номеров</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b4428f0b-366d-419f-83cf-8d667bc7f91b">
+    <name>Эконом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эконом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1030431f-1235-43e6-86f0-36c9b5f7e732">
+    <name>Стандарт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандарт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3be63f67-92c7-4fee-8d53-f30e72d4da3c">
+    <name>Комфорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комфорт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="119dd894-9e42-4840-8774-2c4809230ade">
+    <name>Полулюкс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полулюкс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7c668b20-335e-4899-8d57-c93f2a13c7bd">
+    <name>Люкс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Люкс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c9dd0ae2-e4aa-4d51-98d7-d29bcb0ac42e">
+    <name>Аппартаменты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аппартаменты</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

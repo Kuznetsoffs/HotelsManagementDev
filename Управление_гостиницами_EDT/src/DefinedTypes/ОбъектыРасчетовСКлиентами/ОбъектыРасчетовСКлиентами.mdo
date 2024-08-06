@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30bb1771-be28-4849-9b32-a521af510380">
+  <producedTypes>
+    <containerType typeId="b9cbdadf-40ba-48e0-93ef-4d1ea9a74392" valueTypeId="689cebf3-f5e6-4672-b34c-de660043e42c"/>
+  </producedTypes>
+  <name>ОбъектыРасчетовСКлиентами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты расчетов с клиентами</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.ПоступлениеОплаты</types>
+    <types>DocumentRef.КарточкаБронирования</types>
+  </type>
+</mdclass:DefinedType>

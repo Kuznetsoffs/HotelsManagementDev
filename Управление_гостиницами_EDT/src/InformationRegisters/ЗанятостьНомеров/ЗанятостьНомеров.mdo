@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc1bc20b-e2e8-431e-9dd5-1a7679a597e7">
+  <producedTypes>
+    <selectionType typeId="3c810209-3595-4216-9091-315ef04f1895" valueTypeId="6075e66f-a740-4835-9dfa-4dacf1cd2637"/>
+    <listType typeId="7f7fbbf1-065c-4891-80de-c8f7404b0eb0" valueTypeId="c54e81f0-15a4-4446-af4c-82e9372a3f51"/>
+    <managerType typeId="bb83d31b-4323-4368-8ac9-8aec8babc97e" valueTypeId="2f55ea57-2807-4046-9fcc-fb576277ef9b"/>
+    <recordSetType typeId="65268f3a-0201-4cb0-8d02-bd3bf30abfcf" valueTypeId="dd00aebc-3ed0-4103-b5ff-0d3c3ecfcf88"/>
+    <recordKeyType typeId="822e44e1-a4d0-4491-a4ad-5d29e034bc89" valueTypeId="3d9ff661-57f7-4a46-ad0e-3c83d97841a1"/>
+    <recordType typeId="6de2769e-6eae-4468-8b95-766173ce34a5" valueTypeId="36477f20-3071-42df-bd12-21e8499f0582"/>
+    <recordManagerType typeId="27adf7b5-28b7-40ba-bca3-7f7a1361c931" valueTypeId="c9ad505a-984d-47bf-ad90-976f4f327777"/>
+  </producedTypes>
+  <name>ЗанятостьНомеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Занятость номеров</value>
+  </synonym>
+  <comment>Регистрирует изменение статуса номера на начало и окончание периода бронирования (заселения)</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="2d9fae7d-c78a-46a1-bd35-4ef0c2dd529f">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <comment>Изменение статуса номера</comment>
+    <type>
+      <types>EnumRef.СтатусыНомеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f9afb1b7-9da6-48d6-b460-4cdc8400b4a0">
+    <name>Гостиница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="936301bb-8cf0-45f6-b11b-50ff099ef7f4">
+    <name>Корпус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корпус</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Корпуса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ad2efa80-2d5a-45fd-b65d-36e1540fc3d0">
+    <name>Номер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номера</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

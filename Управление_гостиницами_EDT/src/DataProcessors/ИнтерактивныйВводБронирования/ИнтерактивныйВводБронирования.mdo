@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0900ccb-a401-48ed-b563-98ee932d863a">
+  <producedTypes>
+    <objectType typeId="8f25f28a-8f14-4402-8339-f861c77e6bef" valueTypeId="17ebf640-99f1-4504-ad95-1d2d0b46c323"/>
+    <managerType typeId="7d5e5880-c4a2-49cb-b778-0da2121b5a83" valueTypeId="b2f588da-30bd-4675-a2ce-66bc007188c6"/>
+  </producedTypes>
+  <name>ИнтерактивныйВводБронирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интерактивный ввод бронирования</value>
+  </synonym>
+  <comment>Для интерактивного ввода документа бронирования</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ИнтерактивныйВводБронирования.Form.Форма</defaultForm>
+  <forms uuid="596cc09c-4e02-47f4-a482-39995e523e22">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

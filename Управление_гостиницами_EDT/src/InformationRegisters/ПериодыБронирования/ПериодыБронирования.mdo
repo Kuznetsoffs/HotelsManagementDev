@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="534e5205-24ff-4cd9-87ad-6d0ad9e7535c">
+  <producedTypes>
+    <selectionType typeId="a5649cd4-e94a-48b4-a8b5-74c1b2a463d8" valueTypeId="bab27c65-47c9-4d48-9a5d-bcc7e8b2470c"/>
+    <listType typeId="2c07599e-854b-4078-8407-86802cdf98ee" valueTypeId="45bd9134-b3cd-430d-ae92-bfbe9d596b70"/>
+    <managerType typeId="0a5d066f-92b3-4334-ac19-a5a872f1325b" valueTypeId="d3710fd1-c292-4dc0-a925-7d40eced8006"/>
+    <recordSetType typeId="062c1ab6-680d-4040-a09e-60e255c7252f" valueTypeId="cc752ea4-5f3f-4e5c-82a5-6829127c8804"/>
+    <recordKeyType typeId="c52600ca-26f2-44ea-8afc-9b6a483189ce" valueTypeId="8dfc448a-e156-4e7b-8a35-4a8a3fdbbfbb"/>
+    <recordType typeId="b0f84e80-98c1-41ed-8148-92f6d81905c3" valueTypeId="0ff6e736-e6b6-430b-aea4-70efd3254dc3"/>
+    <recordManagerType typeId="fa8123fa-4640-404c-80d4-a61e0387cb61" valueTypeId="23d2366b-97b0-4754-b4d5-35333adef29e"/>
+  </producedTypes>
+  <name>ПериодыБронирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периоды бронирования</value>
+  </synonym>
+  <comment>Хранит данные об открытых периодах бронирования</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8e9b3c20-002e-444c-8756-016c9e482441">
+    <name>ДатаНачалаБронирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала бронирования</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="31edec6f-0d31-40b8-8eac-81e70370ed71">
+    <name>ДатаОкончанияБронирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания бронирования</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="55b21054-bddb-4980-8dbc-2bcd6a2a578d">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ГостиничныеОбъекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="00283f3b-e3fa-41f8-9340-0f80241508bf">
+    <name>ПериодБронирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период бронирования</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

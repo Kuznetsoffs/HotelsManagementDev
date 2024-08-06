@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd1c9ad3-faa4-4055-a025-f96c322e5c31">
+  <name>Гостиницы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Гостиницы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Клиенты</content>
+  <content>Catalog.ДополнительныеУслуги</content>
+  <content>Catalog.Гостиницы</content>
+  <parentSubsystem>Subsystem.НормативноСправочнаяИнформация</parentSubsystem>
+</mdclass:Subsystem>

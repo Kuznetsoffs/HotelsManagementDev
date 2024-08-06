@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1446800-6834-47b5-be06-802e032ca0c6">
+  <producedTypes>
+    <containerType typeId="e2ce94b6-9cfa-440a-b805-e69213df3a32" valueTypeId="f3a36369-214b-4628-851f-2381d2529450"/>
+  </producedTypes>
+  <name>Услуги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Услуги</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ДополнительныеУслуги</types>
+    <types>CatalogRef.Номера</types>
+  </type>
+</mdclass:DefinedType>

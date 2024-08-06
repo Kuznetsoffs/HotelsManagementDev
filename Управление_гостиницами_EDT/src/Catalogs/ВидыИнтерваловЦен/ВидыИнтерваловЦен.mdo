@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="192a9282-2e9c-4db7-ac2e-9af160d6258b">
+  <producedTypes>
+    <objectType typeId="4b96e6c6-2da1-4193-b460-be6b71dfddd5" valueTypeId="97cb2d7c-078b-476c-803b-2f2a172cff72"/>
+    <refType typeId="41b0d9c8-fafa-46f3-b89c-a300933f5b56" valueTypeId="f5e910f9-f317-41c4-8da2-d24dba2b6d83"/>
+    <selectionType typeId="ea7e66d4-5c59-4a64-9d75-dbd164a89596" valueTypeId="2da560aa-0835-4b61-80ac-8dd7ae6879b5"/>
+    <listType typeId="fca89b50-7470-45d5-85ef-4da60bfe8da0" valueTypeId="990bd17a-59e4-4db4-a223-027418a6a02d"/>
+    <managerType typeId="2d97d993-c531-4cef-92d4-a7a55c9d2d83" valueTypeId="3ce4a35f-d8b7-483c-931f-22bf64c17a42"/>
+  </producedTypes>
+  <name>ВидыИнтерваловЦен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды интервалов цен</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыИнтерваловЦен.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыИнтерваловЦен.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="34fd5957-d2bf-4742-bfbc-2d037b76ebc1">
+      <name>Весна</name>
+      <description>Весна</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="8f6bab46-4bf0-4710-97df-8cbad5fccf27">
+      <name>Лето</name>
+      <description>Лето</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="285aabb7-0186-4471-a569-39a74c128622">
+      <name>ЛетоВысокий</name>
+      <description>Лето высокий</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="b6304c26-976f-4a1a-94dd-e5b536122286">
+      <name>ЛетоНизкий</name>
+      <description>Лето низкий</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="0f1eaecb-9441-4eae-8d01-ceeb4e8073b0">
+      <name>Осень</name>
+      <description>Осень</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="48823385-6fbb-446c-87d2-bad5f9b69611">
+      <name>ОсеньНизкий</name>
+      <description>Осень низкий</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

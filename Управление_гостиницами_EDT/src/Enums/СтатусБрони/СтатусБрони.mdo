@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d919aaa-573c-4a80-8480-d7d038f60239">
+  <producedTypes>
+    <refType typeId="e7455dee-44a5-4455-861b-8bafc8a158cb" valueTypeId="104fad7d-91f8-46fc-88f9-3ff010646f37"/>
+    <listType typeId="cfd6b8cd-e849-4bde-91b2-5a048ab8e820" valueTypeId="e0ccb0b3-6acb-4eb6-b609-d1d313b5e560"/>
+    <managerType typeId="7cf9cbf7-b118-4683-9e0d-7ad1e1e44c07" valueTypeId="731426eb-9b66-4bcb-a62b-3707a660fd11"/>
+  </producedTypes>
+  <name>СтатусБрони</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус брони</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b4a46db6-c80b-4d10-a49d-f848e94cc0d1">
+    <name>Предварительная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предварительное бронирование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4cd884b2-07a4-463c-832e-c259de160763">
+    <name>Подтверждена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтвержденная бронь</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c42a04ab-bc37-4250-b5fd-ce3439accffa">
+    <name>Отменена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отмененная бронь</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="149bb9fa-5d88-4b6a-a156-8b8ecb981573">
+    <name>Заселение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оформлено заселение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

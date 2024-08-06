@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1a7903f-dd63-4a80-bf9c-c4fc237096e3">
+  <producedTypes>
+    <objectType typeId="80d4fc15-e55e-4e65-a5f3-3035c7826396" valueTypeId="85cac519-5f37-4ebb-ae32-f02b81cab46a"/>
+    <refType typeId="498133b5-231c-48ae-9287-948416316e71" valueTypeId="6a5e034f-81b5-451d-ab30-352acfae76df"/>
+    <selectionType typeId="ba1ae296-1c22-459a-ac31-fb56403267d8" valueTypeId="e3fdc012-32f9-45ef-be88-6a2e1c14943b"/>
+    <listType typeId="8955ae6b-89f2-461d-87af-702c19051cef" valueTypeId="3d83aea9-8c3b-40f7-9a56-5d53aa234272"/>
+    <managerType typeId="60798eff-a9cb-4fea-ab3e-9b93833b07e8" valueTypeId="21787c31-56db-48aa-9dea-5aefa008e9e4"/>
+  </producedTypes>
+  <name>ДополнительныеУслуги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные услуги</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДополнительныеУслуги.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ДополнительныеУслуги.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="20005309-8d8f-4052-8769-cdd3fad07f76">
+      <name>ПозднийВыезд</name>
+      <description>Поздний выезд</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="b9627b10-60b2-48b8-b7fd-71eb54ea322d">
+      <name>ДопМесто</name>
+      <description>Предоставление дополнительного места</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="c3984865-1263-4a02-833e-0d6a57b36aee">
+      <name>РаннийЗаезд</name>
+      <description>Ранний заезд</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

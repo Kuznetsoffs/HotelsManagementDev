@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73cf1c55-ac21-4995-a1e7-897120182388">
+  <name>Шахматка_ЦветВнимание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шахматка цвет внимание</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorDef">
+      <red>240</red>
+      <green>240</green>
+      <blue>100</blue>
+    </value>
+  </value>
+</mdclass:StyleItem>

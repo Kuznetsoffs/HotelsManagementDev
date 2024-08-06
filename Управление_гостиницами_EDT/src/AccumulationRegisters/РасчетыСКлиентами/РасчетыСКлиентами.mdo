@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab97482e-823f-4a5c-8ae7-e7dfb5a2dc87">
+  <producedTypes>
+    <selectionType typeId="e9d18dea-d255-4509-a32d-25c0c04e306c" valueTypeId="8523b84a-ed22-4d10-92e2-2cbc623985e6"/>
+    <listType typeId="aee760be-b6b0-4764-9bf3-a031883200ab" valueTypeId="e9768f8b-6a0c-48cb-b8dc-dcee0a52c4e8"/>
+    <managerType typeId="3d7b11f3-938f-4916-88bb-d5138e52b6bb" valueTypeId="6f355400-473a-45b2-abe2-f77a6ae1cc2b"/>
+    <recordSetType typeId="d7d1471f-fb78-46dd-8fc2-8a76b3e0f0c8" valueTypeId="6c69e498-2eb9-4cae-8c39-5edcec1cd9a4"/>
+    <recordKeyType typeId="c81243d8-9388-4fde-a741-4ce2582a7b48" valueTypeId="83f5777c-8a0c-4294-9710-7b95f7dc85e3"/>
+    <recordType typeId="2fdbc328-7bd5-4353-94a0-3d4a8c08e801" valueTypeId="2ec628bd-fa96-4ada-a904-7c1f98a54393"/>
+  </producedTypes>
+  <name>РасчетыСКлиентами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчеты с клиентами</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="831c81b9-b252-479e-8b42-04db7e0c30f9">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="cddb3a8f-d1d4-4793-8930-7d7b0fb48c95">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="4dbb61b3-d108-4c24-a300-c337885fb0dd">
+    <name>ОбъектРасчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект расчетов</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ОбъектыРасчетовСКлиентами</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

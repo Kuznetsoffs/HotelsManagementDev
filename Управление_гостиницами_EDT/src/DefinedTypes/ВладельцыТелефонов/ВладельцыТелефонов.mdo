@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0885c093-c596-4074-8c1e-b0275b5cd737">
+  <producedTypes>
+    <containerType typeId="74ec310c-3185-469f-94ad-03d5852c7dfa" valueTypeId="a751dfef-3859-4cda-aded-6c27b6ddaf43"/>
+  </producedTypes>
+  <name>ВладельцыТелефонов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Владельцы телефонных номеров</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ФизическиеЛица</types>
+    <types>CatalogRef.Клиенты</types>
+  </type>
+</mdclass:DefinedType>

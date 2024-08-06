@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0dd4fb7a-7ce4-4ca8-84bc-e5af36dda602">
+  <name>Маркетинг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маркетинг</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделМаркетинг</picture>
+  </picture>
+  <content>Document.УстановкаЦенНомеровУслуг</content>
+  <content>Catalog.ИнтервалыСезонныхЦен</content>
+  <content>Catalog.ВидыИнтерваловЦен</content>
+  <subsystems>МаркетингСервис</subsystems>
+</mdclass:Subsystem>

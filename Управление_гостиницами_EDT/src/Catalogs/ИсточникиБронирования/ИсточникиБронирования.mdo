@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30230492-3626-4802-bc7a-bae61f0ad20c">
+  <producedTypes>
+    <objectType typeId="1a1c613e-8bb5-4fc5-8d2d-02a8104661c2" valueTypeId="958367f4-1008-43a7-b3ec-436b6914a08c"/>
+    <refType typeId="b06d6aa6-6568-463f-b5c2-567e989f7a8d" valueTypeId="0a0bf8e8-b5d2-420a-9621-cfc6ed8c013c"/>
+    <selectionType typeId="f8c1d892-a839-4ff6-9867-a2e616528a71" valueTypeId="fc91a1dd-9e4f-40c7-a201-cab5243d4c56"/>
+    <listType typeId="de2ac228-0f86-4eb3-af9b-7ba1be6cfce0" valueTypeId="ab395600-ebd8-4ba8-b061-47dc97b384dc"/>
+    <managerType typeId="1fa91b8f-8e64-4e00-807b-4d7fdd999c39" valueTypeId="6157324c-1e10-41b2-aa0a-f7794ad9ba82"/>
+  </producedTypes>
+  <name>ИсточникиБронирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источники бронирования</value>
+  </synonym>
+  <comment>Источники поступления бронирвания (служба бронирования, сайт объявлений, телефон и т.д)</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ИсточникиБронирования.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ИсточникиБронирования.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="45f1dcb0-c968-4a0a-87bb-e261a5c24ae4">
+      <name>Букинг</name>
+      <description>Booking.com</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="9f5d01c4-b170-4a38-bc80-7e3c4b288c31">
+      <name>Другое</name>
+      <description>Другое</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="3670922d-9abc-4c56-b0d5-8738181f716c">
+      <name>ОтдыхНаКубани</name>
+      <description>Отдых на кубани</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="c2d27717-16e9-4001-bdd0-21bc108191ae">
+      <name>СоцСети</name>
+      <description>Социальные сети</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="8f702633-1b2e-47b1-b0b1-694880a86222">
+      <name>Телефон</name>
+      <description>Телефон</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a2d0d28-94bc-44d8-9d9e-f7923b54a661">
+  <producedTypes>
+    <objectType typeId="3871c92f-38f9-4c91-bb16-8f16752af0d7" valueTypeId="286c7782-d3a9-47da-96bd-abacfa56d463"/>
+    <managerType typeId="61c91c12-a6e9-4aa6-b912-c5943ba779ad" valueTypeId="a7232584-3dd5-4610-a5a2-cab0bd1e3733"/>
+  </producedTypes>
+  <name>ПоискСвободныхНомеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поиск свободных номеров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПоискСвободныхНомеров.Form.Форма</defaultForm>
+  <forms uuid="2f3834ff-2851-4d5d-9d72-aa9f99488979">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1138c136-bc54-495b-b1eb-5b12c64cd4c1">
+  <name>ПараметрыКлиентаНаСервере</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры клиента на сервере</value>
+  </synonym>
+  <type>
+    <types>FixedMap</types>
+  </type>
+</mdclass:SessionParameter>

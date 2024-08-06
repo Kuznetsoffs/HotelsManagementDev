@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8206fd0-e662-4e03-9f97-a4d5b83469c0">
+  <producedTypes>
+    <selectionType typeId="dd0d55ce-55ae-482d-9617-6b3bf2bd88de" valueTypeId="a24899f9-ddc0-4959-acff-e7766e1d85ed"/>
+    <listType typeId="0c418d37-16e9-46cc-97df-54e4fe6c5d66" valueTypeId="d1876ec3-38ef-4172-ba32-267f783d5acf"/>
+    <managerType typeId="7f746bd4-72e6-4b8f-b0fb-d7858e102764" valueTypeId="ab980b9c-d6c8-4008-8975-833a8c43ad67"/>
+    <recordSetType typeId="36fc4751-c9f4-4cee-a41b-936832f91632" valueTypeId="cdaec8d5-c369-4467-af71-89d2b299f71d"/>
+    <recordKeyType typeId="2552cfb8-3781-433f-ad06-c7580f3ac8ab" valueTypeId="3243ccad-5269-4866-9a8b-b9915f517b7a"/>
+    <recordType typeId="3e449219-7e8a-4186-871b-d7d8ab9d76ad" valueTypeId="41f68e0b-4852-43a4-b301-8b5b810edf70"/>
+    <recordManagerType typeId="e9e0e048-c075-4418-a766-e2a7027a9669" valueTypeId="730982cc-98d6-4331-89c3-13db5d5a8a46"/>
+  </producedTypes>
+  <name>КонтактнаяИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контактная информация</value>
+  </synonym>
+  <comment>Регистр для хранения контактной информации</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0155a577-f9d8-4149-ad25-51cd81b6c8fb">
+    <name>НомерПриведенный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер приведенный</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="d7d50e2f-f33c-453c-8702-7c2987480743">
+    <name>ЭлектроннаяПочта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронная почта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <attributes uuid="6803b775-b4f6-4276-9fb8-69a93f326b06">
+    <name>НомерСохраненный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер сохраненный</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="92e0e016-e333-4460-9052-fac97cde358c">
+    <name>Владелец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ВладельцыТелефонов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

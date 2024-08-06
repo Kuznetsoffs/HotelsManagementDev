@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5c3d791-c398-4ca3-a69c-f5883cf0645d">
+  <name>УправлениеСервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление сервис</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.ИнтерактивныйВводБронирования</content>
+  <content>DataProcessor.Шахматка_MXL</content>
+  <content>DataProcessor.ПериодыБронирования</content>
+  <content>DataProcessor.Шахматка</content>
+  <parentSubsystem>Subsystem.УправлениеГостиницами</parentSubsystem>
+</mdclass:Subsystem>

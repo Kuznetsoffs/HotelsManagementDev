@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d19f8280-9260-4d35-9969-37215d9afdcc">
+  <producedTypes>
+    <selectionType typeId="60dc63fc-b94c-4ebb-8d99-9cb6a678660e" valueTypeId="339a2a5f-04f2-4f03-9ad5-bc8cfc58a29b"/>
+    <listType typeId="76c5429a-ac0a-427d-a03d-8e5ff287946e" valueTypeId="afda88a5-efe9-4a2a-bd70-5de603bbc093"/>
+    <managerType typeId="35aaf905-22ea-40c6-a3af-651705da4d12" valueTypeId="32028e94-a864-4d5b-8d76-ee1817279ef4"/>
+    <recordSetType typeId="f6b204f0-f38b-450b-aeab-583a755b5e18" valueTypeId="1ec9029f-c784-424d-94a3-506402d7b0d6"/>
+    <recordKeyType typeId="48563232-a010-484e-a7a0-a057c5a87b80" valueTypeId="473fae05-8bf9-4fd5-b53e-c27d4aedd9cb"/>
+    <recordType typeId="7f7b1492-daac-495d-8084-450e7b7c54fa" valueTypeId="e6b41137-ddff-45d3-a0d9-3e96b5c4f764"/>
+    <recordManagerType typeId="57b95fe5-1292-4a9e-8aad-8a6259b8da6d" valueTypeId="f5053e56-3306-45b9-aca8-cc5d9bba5eaa"/>
+  </producedTypes>
+  <name>ЦеныУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цены услуг</value>
+  </synonym>
+  <comment>Цены на услуги проживания и дополнительные услуги</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d802546e-9ab6-420e-8c70-5e0834f984d5">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="45e5215d-4f79-4b72-a285-e44649030914">
+    <name>Гостиница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="00cda994-cc0e-40bd-9bf6-dacf9bfc6f0c">
+    <name>Корпус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корпус</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Корпуса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3773cc85-4836-4174-b82e-703f5f6465c1">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Услуги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

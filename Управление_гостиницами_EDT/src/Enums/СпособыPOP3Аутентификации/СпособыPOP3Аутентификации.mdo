@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c52892f-aa60-4c2f-858b-c88f16188c02">
+  <producedTypes>
+    <refType typeId="429a698f-315a-494a-a39e-181bbf6025ca" valueTypeId="d0cdfe27-efc0-454c-8f40-def0bf197a6c"/>
+    <listType typeId="c3086693-c121-474d-9a37-38b9f8649e15" valueTypeId="17cc34af-d224-4dbb-ab2c-28ceff653538"/>
+    <managerType typeId="3d09bab9-7d5f-42d3-b0ee-9fa6af3c6999" valueTypeId="a613116b-0fdc-4174-b6ff-8d5b238e01c7"/>
+  </producedTypes>
+  <name>СпособыPOP3Аутентификации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы POP3 аутентификации</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="994edd45-73e4-4f13-9f62-ec33798fc335">
+    <name>APOP</name>
+    <synonym>
+      <key>ru</key>
+      <value>APOP</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fb7aa074-fe65-4cd9-b653-f88dc9c531ab">
+    <name>CramMD5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Cram MD5</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6a6e348a-5292-4c3e-a871-857e6533cd53">
+    <name>Обычная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обычная</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

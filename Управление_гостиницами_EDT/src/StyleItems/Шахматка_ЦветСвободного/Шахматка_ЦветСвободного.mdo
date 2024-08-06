@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f48463b-201f-4cca-8869-6cb7c79c1d8d">
+  <name>Шахматка_ЦветСвободного</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шахматка цвет свободного</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorDef">
+      <red>248</red>
+      <green>242</green>
+      <blue>221</blue>
+    </value>
+  </value>
+</mdclass:StyleItem>

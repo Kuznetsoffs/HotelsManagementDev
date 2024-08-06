@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b957d9f3-285b-4a30-8b9c-d3a719aa113d">
+  <producedTypes>
+    <objectType typeId="2e1cbb1c-6f87-4e88-9176-308ab36df6b0" valueTypeId="6a1077ee-a533-4199-9eae-e56fa16a0aa1"/>
+    <refType typeId="762d9b79-494e-44b7-a0c2-a9ae57d4ffa6" valueTypeId="6bd02f5d-b606-44fb-b43a-d62fcb7eab12"/>
+    <selectionType typeId="0694eb3b-a160-4a04-9bef-0d152a4552f4" valueTypeId="0d15dfa1-746d-41e9-abdf-e4c0d24bcf0f"/>
+    <listType typeId="d7460b55-1394-43a4-900c-e106e830cc0a" valueTypeId="54d94af5-3211-4599-a7b6-6104e7c6422a"/>
+    <managerType typeId="9297d56d-9ec2-4f7c-8155-52c10b11976c" valueTypeId="cc76897d-bc6e-4b77-b176-a87b24f30378"/>
+  </producedTypes>
+  <name>ИнтервалыСезонныхЦен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интервалы сезонных цен</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Гостиницы</owners>
+  <owners>Catalog.Корпуса</owners>
+  <codeType>String</codeType>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ИнтервалыСезонныхЦен.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ИнтервалыСезонныхЦен.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ИнтервалыСезонныхЦен.Form.ФормаСписка</defaultChoiceForm>
+  <attributes uuid="e9906deb-01c9-4b67-b885-79cc90de4962">
+    <name>ВидИнтервала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид интервала</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыИнтерваловЦен</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="78b87774-d501-4391-9147-a59da1ed1864">
+    <name>ДатаНачалаДействияЦены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала действия цены</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0ba9a0d4-8699-42fb-adff-670f252db2d4">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧГ=</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧГ=</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b4bb7803-b1ac-48d0-9b3d-24426a74cd60">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="84cdb06c-c9ab-438e-a625-fe2e378c5399">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

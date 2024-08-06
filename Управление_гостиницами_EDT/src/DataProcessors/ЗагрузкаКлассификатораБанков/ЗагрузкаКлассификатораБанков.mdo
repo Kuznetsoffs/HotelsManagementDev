@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03ffa3c1-2248-4b3c-b609-768929ab777f">
+  <producedTypes>
+    <objectType typeId="65aa6e46-7ce1-48c7-9e1f-35f9cbe6f689" valueTypeId="2741ceeb-05fc-488a-97ec-05b1135d32ed"/>
+    <managerType typeId="165276bd-6bf9-45b7-ac12-086b9bb2e7b6" valueTypeId="eadcf8e4-2f7b-476d-9cd6-35b63c9f2487"/>
+  </producedTypes>
+  <name>ЗагрузкаКлассификатораБанков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка классификатора банков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаКлассификатораБанков.Form.Форма</defaultForm>
+  <forms uuid="4efdfae4-ab3c-430d-bb7d-8a1103b21e39">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="b1b255c5-be72-4d66-9529-78fde09cd100">
+    <name>ЗагрузкаКлассификатораБанков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка классификатора банков</value>
+    </synonym>
+    <comment>Открывает обработку загрузки классификатора банков</comment>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

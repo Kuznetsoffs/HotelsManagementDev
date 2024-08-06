@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97b51c77-81cf-4fbf-a677-3d6f4c83bb17">
+  <producedTypes>
+    <objectType typeId="4c2df231-a367-40d9-8c1e-7ea1eb0ce44e" valueTypeId="fae55df4-0dca-4b78-96d5-3f30057c9ee8"/>
+    <managerType typeId="13b5570b-0bc2-49a7-bdea-03624d3f8a7f" valueTypeId="7de4e8eb-cdcc-4632-b2ea-ba38304d564b"/>
+  </producedTypes>
+  <name>ПериодыБронирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление периодами бронирования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПериодыБронирования.Form.Форма</defaultForm>
+  <forms uuid="739dd81b-f0d2-4d6a-9191-5223ee6be720">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управление периодами бронирования</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

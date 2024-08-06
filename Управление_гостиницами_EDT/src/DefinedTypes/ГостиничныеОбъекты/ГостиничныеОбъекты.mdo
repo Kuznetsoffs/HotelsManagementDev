@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18908d7b-37dd-4c2a-a463-d63f5f47c042">
+  <producedTypes>
+    <containerType typeId="57ab8e6b-60b2-41dc-9492-cf498be2fd42" valueTypeId="4a29de28-7b8c-4a18-ba1a-256650846209"/>
+  </producedTypes>
+  <name>ГостиничныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Гостиничные объекты</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Корпуса</types>
+    <types>CatalogRef.Гостиницы</types>
+  </type>
+</mdclass:DefinedType>

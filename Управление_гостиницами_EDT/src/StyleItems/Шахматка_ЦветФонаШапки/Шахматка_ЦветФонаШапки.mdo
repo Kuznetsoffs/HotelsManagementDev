@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a85e3ff-ee1d-4651-817e-9f62f1d869e7">
+  <name>Шахматка_ЦветФонаШапки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шахматка цвет фона шапки</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorDef">
+      <red>248</red>
+      <green>242</green>
+      <blue>197</blue>
+    </value>
+  </value>
+</mdclass:StyleItem>

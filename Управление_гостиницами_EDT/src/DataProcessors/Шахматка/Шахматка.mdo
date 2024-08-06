@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d07f6ed-6ccd-4361-9271-e4bbfc43bb70">
+  <producedTypes>
+    <objectType typeId="8a23a8e6-e449-4e93-b598-6e74e12116ee" valueTypeId="3f29ab91-2532-40ed-9fc8-2139155979e8"/>
+    <managerType typeId="41cce80b-e496-46a3-97f9-3152dd315ed1" valueTypeId="23ada7ec-b19c-4705-bd67-ecf270a283f1"/>
+  </producedTypes>
+  <name>Шахматка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шахматка эксперимент</value>
+  </synonym>
+  <comment>Шахматка на Планировщике</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Шахматка.Form.Форма</defaultForm>
+  <forms uuid="014ac8af-983c-4364-bf48-00d3607d1dcb">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="600bce7f-a225-422f-af49-4ae879e13b72">
+    <name>ПросмотрЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просмотр цен</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e25e292a-2adb-4be3-b621-a0480d945b65">
+    <name>ФормаДиалогаМеню</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма диалога меню</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="98503e0d-d7cd-4760-88af-b09caab55a66">
+    <name>ФормаДиалогаПереноса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма диалога переноса</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
